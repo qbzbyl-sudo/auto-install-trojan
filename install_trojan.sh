@@ -143,7 +143,7 @@ EOF
     cat << EOF > "$TROJAN_CONF"
 {
     "run_type": "server",
-    "local_addr": "0.0.0.0",
+    "local_addr": "::",
     "local_port": $TROJAN_PORT,
     "remote_addr": "127.0.0.1",
     "remote_port": 8080,
